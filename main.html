@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support & Feedback</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+<style>
+
+body{
+    background:#f3f5f9;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ===== Layout Width (Important for exact match) ===== */
+.main-wrapper{
+    max-width: 850px;
+    margin: auto;
+}
+
+/* ===== Titles ===== */
+.page-title{
+    font-weight:700;
+    font-size:28px;
+    color:#1f2937;
+}
+.page-subtitle{
+    font-size:14px;
+    color:#6b7280;
+}
+
+/* ===== Cards ===== */
+.custom-card{
+    border-radius:12px;
+    border:1px solid #e5e7eb;
+    box-shadow:0 2px 8px rgba(0,0,0,0.04);
+    padding:25px 30px;
+}
+
+/* Form Styling */
+.form-label{
+    font-size:14px;
+    font-weight:500;
+    margin-bottom:6px;
+}
+.form-control{
+    height:42px;
+    border-radius:8px;
+    font-size:14px;
+}
+textarea.form-control{
+    height:120px;
+}
+.btn-primary{
+    background:#4c7bf3;
+    border:none;
+    height:44px;
+    border-radius:8px;
+    font-weight:500;
+}
+.btn-primary:hover{
+    background:#3a63d1;
+}
+
+/* Contact Cards */
+.contact-card{
+    background:#fff;
+    border-radius:12px;
+    border:1px solid #e5e7eb;
+    padding:20px 25px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.04);
+}
+.contact-card h6{
+    font-size:15px;
+}
+.contact-card p{
+    font-size:14px;
+    margin-bottom:0;
+}
+.icon-blue{
+    color:#4c7bf3;
+    font-size:20px;
+}
+
+/* Business Hours Box */
+.business-box{
+    background:#eef2ff;
+    border-radius:12px;
+    border:1px solid #dbe3ff;
+    padding:25px;
+}
+.business-box h5{
+    font-size:18px;
+}
+.business-box span{
+    font-size:14px;
+}
+.business-note{
+    background:#dfe7ff;
+    padding:10px 15px;
+    border-radius:8px;
+    font-size:13px;
+}
+
+/* Support */
+.support-icon{
+    width:60px;
+    height:60px;
+    background:#e7edff;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:24px;
+    color:#4c7bf3;
+    margin:auto;
+}
+.support-box{
+    border-left:4px solid #4c7bf3;
+    border-radius:10px;
+    padding:18px 22px;
+}
+.support-box h6{
+    font-size:15px;
+}
+.support-box small{
+    font-size:13px;
+}
+
+/* FAQ */
+.accordion-button{
+    font-size:14px;
+    padding:14px 18px;
+}
+.accordion-body{
+    font-size:13px;
+    color:#555;
+}
+.accordion-item{
+    border-radius:8px;
+    overflow:hidden;
+}
+
+@media (max-width:768px){
+    .main-wrapper{
+        padding:0 15px;
+    }
+}
+
+</style>
+</head>
+<body>
+
+<div class="main-wrapper py-5">
+
+<!-- ================= FEEDBACK ================= -->
+<div class="text-center mb-4">
+    <div class="page-title">Feedback</div>
+    <div class="page-subtitle">We value your opinion. Help us improve our services.</div>
+</div>
+
+<div class="custom-card mb-5">
+    <h6 class="fw-bold mb-1">Share your experience</h6>
+    <p class="text-muted small mb-4">Let us know what you think about our mobile recharge service.</p>
+
+    <form>
+        <div class="mb-3">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-control" placeholder="Your Name">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Email Address</label>
+            <input type="email" class="form-control" placeholder="you@example.com">
+        </div>
+
+        <div class="mb-4">
+            <label class="form-label">Your Feedback</label>
+            <textarea class="form-control" placeholder="Tell us what you liked or how we can improve..."></textarea>
+        </div>
+
+        <button class="btn btn-primary w-100">Submit Feedback</button>
+    </form>
+</div>
+
+<!-- ================= CONTACT ================= -->
+<div class="text-center mb-4">
+    <div class="page-title">Contact Us</div>
+</div>
+
+<div class="row g-4 mb-5">
+    <div class="col-lg-6">
+
+        <div class="contact-card mb-4">
+            <div class="d-flex">
+                <i class="bi bi-geo-alt icon-blue me-3"></i>
+                <div>
+                    <h6 class="fw-bold text-primary">Our Office</h6>
+                    <p class="text-muted">
+                        123 Tech Park, Sector 5<br>
+                        Electronic City, Phase 1<br>
+                        Bangalore, KA 560100
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-card mb-4">
+            <div class="d-flex">
+                <i class="bi bi-telephone icon-blue me-3"></i>
+                <div>
+                    <h6 class="fw-bold text-primary">Phone</h6>
+                    <p class="text-muted">
+                        Toll Free: 1800-123-4567<br>
+                        Support: +91 98765 43210
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-card">
+            <div class="d-flex">
+                <i class="bi bi-envelope icon-blue me-3"></i>
+                <div>
+                    <h6 class="fw-bold text-primary">Email</h6>
+                    <p class="text-muted">
+                        General: info@onlinemobile.com<br>
+                        Support: help@onlinemobile.com
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="col-lg-6">
+        <div class="business-box h-100">
+            <h5 class="fw-bold text-primary mb-4">Business Hours</h5>
+
+            <div class="d-flex justify-content-between border-bottom py-2">
+                <span>Monday - Friday</span>
+                <span>9:00 AM - 8:00 PM</span>
+            </div>
+            <div class="d-flex justify-content-between border-bottom py-2">
+                <span>Saturday</span>
+                <span>10:00 AM - 6:00 PM</span>
+            </div>
+            <div class="d-flex justify-content-between py-2 mb-3">
+                <span>Sunday</span>
+                <span>Closed</span>
+            </div>
+
+            <div class="business-note">
+                <i class="bi bi-clock me-2"></i>
+                Our online services are available 24/7.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ================= SUPPORT ================= -->
+<div class="text-center mb-4">
+    <div class="support-icon mb-3">
+        <i class="bi bi-headset"></i>
+    </div>
+    <h5 class="fw-bold">Customer Care Support</h5>
+    <p class="text-muted small">How can we help you today?</p>
+</div>
+
+<div class="card custom-card support-box mb-4">
+    <div class="d-flex justify-content-between align-items-center flex-column flex-md-row text-center text-md-start">
+        <div>
+            <h6 class="fw-bold mb-1">Need immediate help?</h6>
+            <small class="text-muted">Call our 24/7 Toll Free Number</small>
+        </div>
+        <h5 class="fw-bold text-primary mt-3 mt-md-0">1800-123-4567</h5>
+    </div>
+</div>
+
+
+<h6 class="fw-bold text-primary mb-3">Frequently Asked Questions</h6>
+
+<div class="accordion mb-4" id="faqAccordion">
+
+    <!-- FAQ 1 -->
+    <div class="accordion-item mb-2">
+        <h2 class="accordion-header">
+            <button class="accordion-button" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq1">
+                My recharge failed but money was deducted
+            </button>
+        </h2>
+        <div id="faq1" class="accordion-collapse collapse show"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+                If your money was deducted but recharge failed, the amount is usually refunded automatically within 24–48 hours.
+                Please check your bank statement. If not refunded, contact support with your Transaction ID.
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ 2 -->
+    <div class="accordion-item mb-2">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq2">
+                How do I check my plan validity?
+            </button>
+        </h2>
+        <div id="faq2" class="accordion-collapse collapse"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+                You can check your plan validity from your dashboard or by dialing your operator’s USSD code.
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ 3 -->
+    <div class="accordion-item mb-2">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq3">
+                Can I cancel a recharge?
+            </button>
+        </h2>
+        <div id="faq3" class="accordion-collapse collapse"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+                Once processed, a recharge cannot be cancelled. Please verify all details before confirming payment.
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ 4 -->
+    <div class="accordion-item mb-2">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq4">
+                Is it safe to use my credit card here?
+            </button>
+        </h2>
+        <div id="faq4" class="accordion-collapse collapse"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+                Yes. We use secure payment gateways and encryption to protect your financial information.
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ 5 -->
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq5">
+                How long does a recharge take to process?
+            </button>
+        </h2>
+        <div id="faq5" class="accordion-collapse collapse"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+                Most recharges are processed instantly. In rare cases, it may take a few minutes depending on network conditions.
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="text-center">
+    <p class="text-muted small">Still have questions?</p>
+    <button class="btn btn-primary px-4">Contact Support Team</button>
+</div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
