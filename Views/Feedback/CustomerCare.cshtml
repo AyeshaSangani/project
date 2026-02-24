@@ -2,3 +2,118 @@
 @model eproject.Views.Support.CustomerCareModel
 @{
 }
+<div class="text-center mb-4">
+    <div class="support-icon mb-3">
+        <i class="bi bi-headset"></i>
+    </div>
+    <h5 class="fw-bold">Customer Care Support</h5>
+    <p class="text-muted small">How can we help you today?</p>
+</div>
+
+<div class="card custom-card support-box mb-4">
+    <div class="d-flex justify-content-between align-items-center flex-column flex-md-row text-center text-md-start">
+        <div>
+            <h6 class="fw-bold mb-1">Need immediate help?</h6>
+            <small class="text-muted">Call our 24/7 Toll Free Number</small>
+        </div>
+        <h5 class="fw-bold text-primary mt-3 mt-md-0">1800-123-4567</h5>
+    </div>
+</div>
+
+
+<h6 class="fw-bold text-primary mb-3">Frequently Asked Questions</h6>
+
+<div class="accordion mb-4" id="faqAccordion">
+
+    <!-- FAQ 1 -->
+    <div class="accordion-item mb-2">
+        <h2 class="accordion-header">
+            <button class="accordion-button" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq1">
+                My recharge failed but money was deducted
+            </button>
+        </h2>
+        <div id="faq1" class="accordion-collapse collapse show"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+                If your money was deducted but recharge failed, the amount is usually refunded automatically within 24–48 hours.
+                Please check your bank statement. If not refunded, contact support with your Transaction ID.
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ 2 -->
+    <div class="accordion-item mb-2">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq2">
+                How do I check my plan validity?
+            </button>
+        </h2>
+        <div id="faq2" class="accordion-collapse collapse"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+                You can check your plan validity from your dashboard or by dialing your operator’s USSD code.
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ 3 -->
+    <div class="accordion-item mb-2">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq3">
+                Can I cancel a recharge?
+            </button>
+        </h2>
+        <div id="faq3" class="accordion-collapse collapse"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+                Once processed, a recharge cannot be cancelled. Please verify all details before confirming payment.
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ 4 -->
+    <div class="accordion-item mb-2">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq4">
+                Is it safe to use my credit card here?
+            </button>
+        </h2>
+        <div id="faq4" class="accordion-collapse collapse"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+                Yes. We use secure payment gateways and encryption to protect your financial information.
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ 5 -->
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq5">
+                How long does a recharge take to process?
+            </button>
+        </h2>
+        <div id="faq5" class="accordion-collapse collapse"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+                Most recharges are processed instantly. In rare cases, it may take a few minutes depending on network conditions.
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="text-center">
+    <p class="text-muted small">Still have questions?</p>
+    <button class="btn btn-primary px-4">Contact Support Team</button>
+</div>
