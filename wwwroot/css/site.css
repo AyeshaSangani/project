@@ -1,0 +1,31 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+body {
+    background-color: #f4f6f9;
+}
+
+.card {
+    border-radius: 12px;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #4a7bdc;
+    border: none;
+}
+
+    .btn-primary:hover {
+        background-color: #3a67c7;
+    }
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #4a7bdc;
+}
